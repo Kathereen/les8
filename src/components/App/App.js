@@ -12,8 +12,8 @@ class App extends React.Component {
       <Router>
   {/* <Switch> */}
       <Route path='' component={HomePage} />
-      <Route path='/age1'  component={Page2}/>
-      <Route path='/age2'  component={Page1}/>
+      <Route path='/page1'  component={Page2}/>
+      <Route path='/page2'  component={Page1}/>
   {/* </Switch>     */}
       </Router>
       
